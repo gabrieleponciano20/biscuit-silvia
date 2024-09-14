@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #BBE9FF 16.62%, #ff8dcd 85.61%);
+}
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.cabeçalho.imagem {
+  height: 25px;
+
+
+}
+
+.cabeçalho-menu {
+  display: flex;
+  gap: 65px;  /*divide as 4 palavras da barra lateral direita*/
+}
+.cabeçalho-menu-item {
+ font-family: 'Sarala', sans-serif;
+ color: rgb(0, 0, 0);
+ font-weight: 400;
+ font-size: 18px;
+} /*Palvavras do canto direito*/ 
+
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;  /*separa as linhas*/
+
+
+}
+.conteudo-titulo{ /*TITULO SILVIS BISCUIT*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: 64PX;
+  color: #7e0a59;
+}
+.conteudo-subtitulo{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+
+}
+.botao{
+  background-color: #FB9AD1; /*define a cor do fundo*/
+  width: 175px;
+  height: 60px;
+  border: none;
+box-shadow: 4px 5px 4px rgba(0, 0, 0, 25); /*SOMBRA*/
+border-radius: 20px; /*borda arredondada*/
+font-family: monospace, sans-serif;
+font-weight: 400;
+font-size: 24px;
+
+
+}
+.botao:hover{
+  background-color: #F6F193 /*faz com que quando passe o cursor ele muda de cor*/
+}
+
+
+
+
+.conteudo-princiapl-imagem{
+  height: 450px;
+
+
+}
+
+/*conteudo segundário*/
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*deixa as linhas alinhadas*/
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.titulo-rodape{
+border-top: 0.4px solid #ff10b3 ;
+padding-top: 48px;
+font-family: 'Sarala', sans-serif;
+font-weight: 400;
+font-size: 35px;
+color: #7e0a59;
+margin-bottom: 16px;
+}
+
+.paragrafo-rodape {
+  font-family: 'Sarala', sans-serif;
+font-weight: 100;
+font-size: 18px;
+color: #000000;
+}
+ 
+.final{
+padding: 100px; /*32*/
+border-top: 0.8px solid #ff10b3;
+
+
+}
+.final-imagem{
+height: 250px; /*42*/
+display: block; 
+margin: 0 auto;  /*0*/
+}
+.final-para{
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+
+}
+.final-titulo{
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  color: #7e0a59;
+  
+
+
+}
+.marcado{
+  color: #7e0a59;
+}
+.tudao{
+  display: flex;
+  flex-direction: column; /*está na ultima parte div e elas servirão para deixar tudo separado*/
+  gap: 42px;
+}
